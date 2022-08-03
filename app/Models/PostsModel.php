@@ -11,7 +11,7 @@ class postsModel extends Model
 {
     use HasFactory;
 
-    protected $table = "posts";     // Assigning the table
+    protected $table = "posts";     // Assigning the tables
 
     protected $fillable = [
         'category_id',
